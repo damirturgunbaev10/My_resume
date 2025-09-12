@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jomolhari&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #722cff;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+}
+
+nav {
+  width: 1200px;
+  height: 70px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav__li {
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.nav__btn {
+  margin-left: 50px;
+  width: 127.25px;
+  height: 36.85px;
+  background: #297fff;
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav__btn a {
+  text-decoration: none;
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.title {
+  width: 100%;
+  height: 240px;
+  margin-top: 78px;
+}
+
+.title__container {
+  width: 1024px;
+  height: 240px;
+  margin: 0 auto;
+}
+
+.title__h1 {
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 222px;
+  line-height: 238px;
+  color: #00ff11;
+  text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.one__page {
+  width: 1200px;
+  height: 641px;
+  margin: 88px auto;
+}
+
+.one__page__container {
+  width: 1200px;
+  height: 641px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.one__page__top h2 {
+  text-align: center;
+  font-family: "Jomolhari";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+}
+
+.one__page__bottom {
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  border: 2px solid #ff8c34;
+  border-radius: 25px;
+}
+
+.one__page__bottom__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.one__page__bottom__right img {
+  width: 652px;
+  height: auto;
+}
+
+.one__page__bottom__p1 {
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.one__page__btn {
+  margin-top: 44px;
+  width: 227px;
+  height: 55px;
+  background: #ff8c34;
+  border-radius: 15px;
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+}
+
+.one__page__ul {
+  margin-top: 31px;
+  margin-bottom: 31px;
+  padding-left: 21px;
+}
+
+.one__page__li {
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  list-style: none;
+}
+
+.landing__page {
+  width: 1200px;
+  height: 641px;
+  margin: 89px auto;
+}
+
+.landing__page__container {
+  width: 1200px;
+  height: 641px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.landing__page__top h2 {
+  text-align: center;
+  font-family: "Jomolhari";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+}
+
+.landing__page__bottom {
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  border: 2px solid #ff8c34;
+  border-radius: 25px;
+}
+
+.landing__page__bottom__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing__page__bottom__left img {
+  width: 652px;
+  height: auto;
+}
+
+.landing__page__bottom__p1 {
+  margin-left: 130px;
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.landing__page__btn {
+  margin-left: 186px;
+  margin-top: 44px;
+  width: 227px;
+  height: 55px;
+  background: #ff8c34;
+  border-radius: 15px;
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+}
+
+.landing__page__ul {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 31px;
+  margin-bottom: 31px;
+   padding-right: 40px;
+}
+
+.landing__page__li {
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  list-style: none;
+}
+
+.inter__shop {
+  width: 1200px;
+  height: 641px;
+  margin: 88px auto;
+}
+
+.inter__shop__container {
+  width: 1200px;
+  height: 641px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inter__shop__top h2 {
+  text-align: center;
+  font-family: "Jomolhari";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+}
+
+.inter__shop__bottom {
+  width: 1200px;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  border: 2px solid #ff8c34;
+  border-radius: 25px;
+}
+
+.inter__shop__bottom__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inter__shop__bottom__right img {
+  width: 652px;
+  height: auto;
+}
+
+.inter__shop__bottom__p1 {
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.inter__shop__btn {
+  margin-top: 44px;
+  width: 227px;
+  height: 55px;
+  background: #ff8c34;
+  border-radius: 15px;
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+}
+
+.inter__shop__ul {
+  margin-top: 31px;
+  margin-bottom: 31px;
+  padding-left: 21px;
+}
+
+.inter__shop__li {
+  font-family: "Jersey 10";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff;
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  height: 395px;
+  background-color: #000000;
+  margin: 0 auto;
+  margin-top: 93px;
+}
+
+.footer__container {
+  width: 1200px;
+  height: 395px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list h4 {
+  font-family: "Jomolhari";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.footer__li {
+  list-style: none;
+  font-family: "Jomolhari";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.footer__li1{
+  padding-top: 11px;
+}
+
+.footer__btn {
+  margin-left: 50px;
+  width: 127.25px;
+  height: 36.85px;
+  background: #297fff;
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer__btn a {
+  text-decoration: none;
+  font-family: 'Jersey 10';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: #ffffff;
+}
