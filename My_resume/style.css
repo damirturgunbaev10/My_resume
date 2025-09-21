@@ -54,7 +54,7 @@ header {
 }
 
 .nav__btn {
-  margin-left: 50px;
+  
   width: 127.25px;
   height: 36.85px;
   background: #297fff;
@@ -481,4 +481,43 @@ footer {
   .footer__text{
     gap: 70px;
   }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav{
+    width: 724px;
+    height: 66px;
+    justify-content: none;
+
+  }
+
+  .title__container{
+    width: 628px;
+    height: 177px;
+  }
+
+  .title__container h1{
+font-size: 165px;
+  }
+
+  .about__me__container{
+    width: 762px;
+    height: 462px;
+  }
+
+  .about__me__bottom{
+    width: 762px;
+    height: 356px;
+    padding: 0px 0px;
+    padding: 35px;
+  }
+
+  .about__me__bottom__left p{
+    width: 316px;
+  }
+
+  .about__me__bottom__right img {
+  width: 348px;
+  height: 282px;
+}
 }
